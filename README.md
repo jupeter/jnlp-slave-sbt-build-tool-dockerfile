@@ -1,6 +1,6 @@
 # Description
 
-Extends [jupeter/scala-build-tools](https://hub.docker.com/r/jupeter/scala-build-tools/) so it can be used as a Jenkins JLNP slave, for use with Jenkins Cloud plugins.
+Extends [pplenik/sbt-build-tool](https://hub.docker.com/r/pplenik/sbt-build-tool/) so it can be used as a Jenkins JLNP slave, for use with Jenkins Cloud plugins.
 
 See [README](https://hub.docker.com/r/jupeter/scala-build-tools/) for details on available tools.
 
