@@ -1,4 +1,4 @@
-FROM jupeter/java-build-tools
+FROM pplenik/scala-build-tools
 
 USER root
 
