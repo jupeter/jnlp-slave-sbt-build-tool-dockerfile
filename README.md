@@ -6,8 +6,9 @@ See [README](https://hub.docker.com/r/jupeter/scala-build-tools/) for details on
 
 # Supported tags and respective `Dockerfile` links
 
--   [`latest` (*latest/Dockerfile*)](https://github.com/jupeter/scala-build-tools-dockerfile/blob/master/Dockerfile)
--   [`0.0.2` (*0.0.2/Dockerfile*)](https://github.com/jupeter/scala-build-tools-dockerfile/blob/0.0.2/Dockerfile)
+-   [`latest` (*latest/Dockerfile*)](https://github.com/jupeter/jnlp-slave-sbt-build-tools/blob/master/Dockerfile)
+-   [`1.0.0` (*1.0.0/Dockerfile*)](https://github.com/jupeter/jnlp-slave-sbt-build-tools/blob/1.0.0/Dockerfile)
+-   [`0.0.3` (*0.0.3/Dockerfile*)](https://github.com/jupeter/jnlp-slave-sbt-build-tools/blob/0.0.3/Dockerfile)
 
 # How to use this Docker image
 
