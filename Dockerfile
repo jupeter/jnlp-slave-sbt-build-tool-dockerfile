@@ -2,7 +2,7 @@ FROM pplenik/sbt-build-tool:0.0.2
 
 USER root
 
-ARG JENKINS_REMOTING_VERSION=3.12
+ARG JENKINS_REMOTING_VERSION=3.10
 
 # See https://github.com/jenkinsci/docker-slave/blob/2.62/Dockerfile#L32
 RUN curl --create-dirs -sSLo /usr/share/jenkins/slave.jar https://repo.jenkins-ci.org/public/org/jenkins-ci/main/remoting/$JENKINS_REMOTING_VERSION/remoting-$JENKINS_REMOTING_VERSION.jar \
