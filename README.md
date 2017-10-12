@@ -17,3 +17,8 @@ See [README](https://hub.docker.com/r/jupeter/scala-build-tools/) for details on
  -   Mesos (see [Jenkins Mesos Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Mesos+Plugin))
 
 It can also be used "static" Jenkins slave connected to a Jenkins master declaring a JNLP slave but it would require to manually launch the Docker container.
+
+# Versions
+
+ - 0.x - support jupeter/scala-build-tools with sbt 0.x
+ - 1.x - support jupeter/scala-build-tools with sbt 1.x
