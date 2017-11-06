@@ -1,4 +1,4 @@
-FROM pplenik/sbt-build-tool:0.0.2
+FROM mestudent/sbt-build-tool:0.0.4
 
 USER root
 
@@ -13,6 +13,6 @@ COPY jenkins-slave /usr/local/bin/jenkins-slave
 
 RUN chmod a+rwx /home/jenkins
 WORKDIR /home/jenkins
-USER jenkins
+USER jenkins  
 
 ENTRYPOINT ["/opt/bin/entry_point.sh", "/usr/local/bin/jenkins-slave"]
