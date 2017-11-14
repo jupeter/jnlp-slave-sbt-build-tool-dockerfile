@@ -1,4 +1,4 @@
-FROM mestudent/sbt-build-tool:0.0.4
+FROM mestudent/sbt-build-tool:0.0.5
 
 USER root
 
