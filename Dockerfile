@@ -13,6 +13,10 @@ COPY jenkins-slave /usr/local/bin/jenkins-slave
 
 RUN chmod a+rwx /home/jenkins
 WORKDIR /home/jenkins
-USER jenkins  
+USER jenkins
+
+ENV LANG en_US.UTF-8
+ENV LANGUAGE en_US:en
+ENV LC_ALL en_US.UTF-8
 
 ENTRYPOINT ["/opt/bin/entry_point.sh", "/usr/local/bin/jenkins-slave"]
