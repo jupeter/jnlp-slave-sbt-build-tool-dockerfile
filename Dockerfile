@@ -1,4 +1,4 @@
-FROM mestudent/sbt-build-tool:0.0.5
+FROM pplenik/sbt-build-tool:1.1.1
 
 USER root
 
