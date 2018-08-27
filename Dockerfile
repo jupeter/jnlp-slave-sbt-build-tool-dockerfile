@@ -1,4 +1,4 @@
-FROM pplenik/sbt-build-tool:1.1.1
+FROM pplenik/sbt-build-tool:1.2.0
 
 USER root
 
